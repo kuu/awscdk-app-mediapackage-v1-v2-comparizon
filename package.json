@@ -1,0 +1,29 @@
+{
+  "name": "awscdk-app-mediapackage-v1-v2-comparizon",
+  "version": "0.1.0",
+  "bin": {
+    "awscdk-app-mediapackage-v1-v2-comparizon": "bin/awscdk-app-mediapackage-v1-v2-comparizon.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "22.7.3",
+    "aws-cdk": "2.160.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.160.0",
+    "awscdk-construct-file-publisher": "^0.0.5",
+    "awscdk-construct-live-channel-from-mp4-file": "^1.2.18",
+    "constructs": "^10.3.0",
+    "source-map-support": "^0.5.21"
+  }
+}
